@@ -1,0 +1,29 @@
+--- Create React App Version 5
+> npx create-react-app@5 project-folder 
+
+--- Create Vite Project Latest
+> npm create vite@latest
+
+--- Create Vite Project Version 4 + React Router Version 6
+> npm create vite@4
+> cd project-folder
+> npm install
+> npm install react-router-dom@6
+
+--- Add Eslint to Vite Project
+
+1. Install eslint dev dependencies (Optional)
+> npm install eslint vite-plugin-eslint eslint-config-react-app --save-dev
+
+2. Edit vite.config.js to be like this:
+// @ts-nocheck
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import eslint from 'vite-plugin-eslint';
+
+export default defineConfig({
+  plugins: [react(), eslint()],
+});
+
+3. Add this eslint rules inside .eslintrc.cjs
+'no-unused-vars': 'warn',
