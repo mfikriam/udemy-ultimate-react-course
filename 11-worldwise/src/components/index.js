@@ -1,5 +1,5 @@
 export { default as AppNav } from './AppNav';
-export { default as Button } from './Button';
+export * from './Button';
 export { default as City } from './City';
 export { default as CityItem } from './CityItem';
 export { default as CityList } from './CityList';

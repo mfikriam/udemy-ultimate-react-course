@@ -1,12 +1,15 @@
 import { useParams } from 'react-router-dom';
 import { useEffect } from 'react';
-import { formatDateWithWeekday } from '../../utils';
-import useCitiesContext from '../../hooks/useCitiesContext';
+
 import styles from './City.module.css';
+
+import useCitiesContext from '../../hooks/useCitiesContext';
+import { formatDateWithWeekday } from '../../utils';
+import { BackButton, Spinner } from '../index';
 
 function City() {
   const { id } = useParams();
-  const { getCity, currentCity } = useCitiesContext();
+  const { getCity, currentCity, isLoading } = useCitiesContext();
 
   useEffect(
     function () {
@@ -16,6 +19,8 @@ function City() {
   );
 
   const { cityName, emoji, date, notes } = currentCity;
+
+  if (isLoading) return <Spinner />;
 
   return (
     <div className={styles.city}>
@@ -45,7 +50,9 @@ function City() {
         </a>
       </div>
 
-      <div></div>
+      <div>
+        <BackButton />
+      </div>
     </div>
   );
 }
