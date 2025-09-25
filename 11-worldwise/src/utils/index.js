@@ -1,0 +1,1 @@
+export { flagemojiToPNG } from './flagemojiToPNG';

@@ -1,13 +1,7 @@
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
-
 import { CitiesProvider } from './contexts/CitiesContext';
-
 import { AppLayout, Homepage, Login, PageNotFound, Pricing, Product } from './pages';
-
-import CityList from './components/CityList';
-import CountryList from './components/CountryList';
-import City from './components/City';
-import Form from './components/Form';
+import { CityList, CountryList, City, Form } from './components';
 
 function App() {
   return (
