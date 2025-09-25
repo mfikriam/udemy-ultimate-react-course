@@ -1,1 +1,2 @@
-export { flagemojiToPNG } from './flagemojiToPNG';
+export * from './dates';
+export { default as flagemojiToPNG } from './flagemojiToPNG';
