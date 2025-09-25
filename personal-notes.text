@@ -47,3 +47,7 @@ export default defineConfig({
 
 3. Run the Script
 > npm run server
+
+
+-- Install React Leaflet Maps For React 18
+> npm install react-leaflet@4.2.1 leaflet
