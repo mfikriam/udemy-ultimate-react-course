@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
 import { useEffect } from 'react';
-import { flagemojiToPNG, formatDateWithWeekday } from '../../utils';
+import { formatDateWithWeekday } from '../../utils';
 import useCitiesContext from '../../hooks/useCitiesContext';
 import styles from './City.module.css';
 
@@ -22,7 +22,7 @@ function City() {
       <div className={styles.row}>
         <h6>City name</h6>
         <h3>
-          <span>{flagemojiToPNG(emoji)}</span> {cityName}
+          <span>{emoji}</span> {cityName}
         </h3>
       </div>
 
