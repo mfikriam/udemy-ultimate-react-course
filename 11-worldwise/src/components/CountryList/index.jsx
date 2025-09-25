@@ -1,8 +1,8 @@
-import Spinner from './Spinner';
+import Spinner from '../Spinner';
+import Message from '../Message';
+import CountryItem from '../CountryItem';
+import useCitiesContext from '../../hooks/useCitiesContext';
 import styles from './CountryList.module.css';
-import CountryItem from './CountryItem';
-import Message from './Message';
-import useCitiesContext from '../hooks/useCitiesContext';
 
 function CountryList() {
   const { cities, isLoading } = useCitiesContext();
