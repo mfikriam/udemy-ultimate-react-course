@@ -47,11 +47,13 @@ function PostProvider({ children }) {
   );
 }
 
-function usePosts() {
+function usePostContext() {
   const context = useContext(PostContext);
-  if (context === undefined) throw new Error('PostContext was used outside of the PostProvider');
+  if (context === undefined) {
+    throw new Error('usePostContext must be used within a PostProvider');
+  }
 
   return context;
 }
 
-export { PostProvider, usePosts };
+export { PostProvider, usePostContext };
