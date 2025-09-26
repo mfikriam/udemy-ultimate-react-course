@@ -51,3 +51,7 @@ export default defineConfig({
 
 -- Install React Leaflet Maps For React 18
 > npm install react-leaflet@4.2.1 leaflet
+
+
+-- Install React Date Picker
+> npm install react-datepicker
