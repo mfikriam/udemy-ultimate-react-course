@@ -1,2 +1,2 @@
-export * from './formatDate';
-export * from './convertToEmoji';
+export { formatDate, formatDateWithWeekday } from './formatDate';
+export { convertToEmoji } from './convertToEmoji';

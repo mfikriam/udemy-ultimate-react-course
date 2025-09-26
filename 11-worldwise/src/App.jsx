@@ -1,5 +1,5 @@
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
-import { CitiesProvider } from './contexts/CitiesContext';
+import { CitiesProvider } from './contexts';
 import { AppLayout, Homepage, Login, PageNotFound, Pricing, Product } from './pages';
 import { CityList, CountryList, City, Form } from './components';
 

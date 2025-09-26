@@ -1,7 +1,7 @@
 import { useContext } from 'react';
-import { CitiesContext } from '../contexts/CitiesContext';
+import { CitiesContext } from '../contexts';
 
-function useCitiesContext() {
+export function useCitiesContext() {
   const context = useContext(CitiesContext);
 
   if (context === undefined) {
@@ -10,5 +10,3 @@ function useCitiesContext() {
 
   return context;
 }
-
-export default useCitiesContext;

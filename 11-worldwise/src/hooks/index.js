@@ -1,3 +1,3 @@
-export { default as useCitiesContext } from './useCitiesContext';
+export { useCitiesContext } from './useCitiesContext';
 export { useGeoLocation } from './useGeoLocation';
 export { useUrlPosition } from './useUrlPosition';
