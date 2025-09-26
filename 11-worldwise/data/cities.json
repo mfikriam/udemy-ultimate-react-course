@@ -1,66 +1,6 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": 73930385
-    },
-    {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": 17806751
-    },
-    {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": 98443197
-    },
-    {
-      "cityName": "Kecamatan Somba Opu",
-      "country": "Indonesia",
-      "emoji": "🇮🇩",
-      "date": "2025-09-10T01:39:28.000Z",
-      "notes": "Yeah",
-      "position": {
-        "lat": "-5.197629398632209",
-        "lng": "119.47631835937501"
-      },
-      "id": 98443198
-    },
-    {
-      "cityName": "Kecamatan Sinjai Utara",
-      "country": "Indonesia",
-      "emoji": "🇮🇩",
-      "date": "2025-09-26T01:42:53.127Z",
-      "notes": "Fian's Hometown",
-      "position": {
-        "lat": "-5.122404495007054",
-        "lng": "120.2501678466797"
-      },
-      "id": 98443199
-    },
-    {
       "cityName": "Parepare",
       "country": "Indonesia",
       "emoji": "🇮🇩",
