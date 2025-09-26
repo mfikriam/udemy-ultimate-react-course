@@ -3,9 +3,9 @@ import { useEffect } from 'react';
 
 import styles from './City.module.css';
 
-import useCitiesContext from '../../hooks/useCitiesContext';
-import { formatDateWithWeekday } from '../../utils';
 import { BackButton, Spinner } from '../index';
+import { useCitiesContext } from '../../hooks';
+import { formatDateWithWeekday } from '../../utils';
 
 function City() {
   const { id } = useParams();

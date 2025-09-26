@@ -1,6 +1,6 @@
 import styles from './CountryList.module.css';
 
-import useCitiesContext from '../../hooks/useCitiesContext';
+import { useCitiesContext } from '../../hooks';
 import { Spinner, CountryItem, Message } from '../index';
 
 function CountryList() {

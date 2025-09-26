@@ -3,7 +3,7 @@ import { formatDate } from '../../utils';
 
 import styles from './CityItem.module.css';
 
-import useCitiesContext from '../../hooks/useCitiesContext';
+import { useCitiesContext } from '../../hooks';
 
 function CityItem({ city }) {
   const { currentCity } = useCitiesContext();

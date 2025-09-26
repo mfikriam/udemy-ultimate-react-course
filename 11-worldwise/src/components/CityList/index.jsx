@@ -1,6 +1,6 @@
 import styles from './CityList.module.css';
 
-import useCitiesContext from '../../hooks/useCitiesContext';
+import { useCitiesContext } from '../../hooks';
 import { Spinner, CityItem, Message } from '../index';
 
 function CityList() {
