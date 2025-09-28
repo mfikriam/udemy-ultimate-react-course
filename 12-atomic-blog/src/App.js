@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { faker } from '@faker-js/faker';
 import { PostProvider, usePostContext } from './PostContext';
+import Test from './Test';
 
 function createRandomPost() {
   return {
@@ -119,14 +120,18 @@ function List() {
   const { posts } = usePostContext();
 
   return (
-    <ul>
-      {posts.map((post, i) => (
-        <li key={i}>
-          <h3>{post.title}</h3>
-          <p>{post.body}</p>
-        </li>
-      ))}
-    </ul>
+    <>
+      <ul>
+        {posts.map((post, i) => (
+          <li key={i}>
+            <h3>{post.title}</h3>
+            <p>{post.body}</p>
+          </li>
+        ))}
+      </ul>
+
+      {/* <Test /> */}
+    </>
   );
 }
 
