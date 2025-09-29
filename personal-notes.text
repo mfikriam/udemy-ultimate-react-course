@@ -55,3 +55,6 @@ export default defineConfig({
 
 -- Install React Date Picker
 > npm install react-datepicker
+
+--- Install React Redux
+> npm install redux
