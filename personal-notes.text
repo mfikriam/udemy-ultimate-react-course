@@ -57,4 +57,4 @@ export default defineConfig({
 > npm install react-datepicker
 
 --- Install React Redux
-> npm install redux react-redux redux-thunk
+> npm install redux react-redux redux-thunk @redux-devtools/extension
