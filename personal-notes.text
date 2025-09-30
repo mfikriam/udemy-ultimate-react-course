@@ -58,3 +58,6 @@ export default defineConfig({
 
 --- Install React Redux
 > npm install redux react-redux redux-thunk @redux-devtools/extension
+
+--- Install React Redux Toolkit (RTK)
+> npm install @reduxjs/toolkit
