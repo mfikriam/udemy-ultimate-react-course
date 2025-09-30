@@ -62,6 +62,4 @@ export function deposit(amount, currency) {
   };
 }
 
-console.log(requestLoan(1000, 'Buy car'));
-
 export default accountSlice.reducer;
