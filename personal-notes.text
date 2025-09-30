@@ -12,6 +12,7 @@
 > npm install
 > npm install react-router-dom@6
 
+Note: vite@latest for future project
 
 --- Add Eslint to Vite Project
 
