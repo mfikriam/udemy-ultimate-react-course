@@ -53,7 +53,6 @@ export default defineConfig({
 -- Install React Leaflet Maps For React 18
 > npm install react-leaflet@4.2.1 leaflet
 
-
 -- Install React Date Picker
 > npm install react-datepicker
 
@@ -62,3 +61,34 @@ export default defineConfig({
 
 --- Install React Redux Toolkit (RTK)
 > npm install @reduxjs/toolkit
+
+--- Install Tailwind Version 3 On Vite
+
+1. Install tailwindcss (make sure its version 3)
+> npm install -D tailwindcss@3 postcss autoprefixer
+
+2. Create tailwindcss and postcss config files
+> npx tailwindcss init -p
+
+3. Edit content on tailwind.config.js file
+content: [
+  "./index.html",
+  "./src/**/*.{js,ts,jsx,tsx}",
+],
+
+4. Add the Tailwind directives to index.css file (at the very top)
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+--- Install Prettier Plugin For Tailwindcss
+
+1. Install tailwindcss plugin
+> npm install -D prettier prettier-plugin-tailwindcss
+
+2. Create file .prettierrc and add this script
+{
+  "plugins": ["prettier-plugin-tailwindcss"]
+}
+
+
