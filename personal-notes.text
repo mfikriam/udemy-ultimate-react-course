@@ -60,7 +60,7 @@ export default defineConfig({
 > npm install redux react-redux redux-thunk @redux-devtools/extension
 
 --- Install React Redux Toolkit (RTK)
-> npm install @reduxjs/toolkit
+> npm install @reduxjs/toolkit react-redux
 
 --- Install Tailwind Version 3 On Vite
 
@@ -93,4 +93,5 @@ content: [
   "plugins": ["prettier-plugin-tailwindcss"]
 }
 
+3. Also copy all your prettier rules on settings.json to .prettierrc because its taking control all your rules
 
