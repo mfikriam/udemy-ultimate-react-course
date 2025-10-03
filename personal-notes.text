@@ -70,13 +70,15 @@ export default defineConfig({
 2. Create tailwindcss and postcss config files
 > npx tailwindcss init -p
 
-3. Edit content on tailwind.config.js file
+3. Change tailwind.config.js filename to tailwind.config.cjs
+
+4. Edit content on tailwind.config.cjs file
 content: [
   "./index.html",
   "./src/**/*.{js,ts,jsx,tsx}",
 ],
 
-4. Add the Tailwind directives to index.css file (at the very top)
+5. Add the Tailwind directives to index.css file (at the very top)
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
