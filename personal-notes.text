@@ -95,3 +95,7 @@ content: [
 
 3. Also copy all your prettier rules on settings.json to .prettierrc because its taking control all your rules
 
+
+--- Install Styled components
+> npm install styled-components
+
