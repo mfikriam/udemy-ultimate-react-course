@@ -107,3 +107,6 @@ content: [
 --- Install React Query
 > npm install @tanstack/react-query@4
 > npm install @tanstack/react-query-devtools@4
+
+--- Install Date Calculation Library
+> npm install date-fns
