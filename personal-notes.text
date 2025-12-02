@@ -99,10 +99,8 @@ content: [
 --- Install Styled Components
 > npm install styled-components
 
-
 --- Install Supabase
 > npm install @supabase/supabase-js
-
 
 --- Install React Query
 > npm install @tanstack/react-query@4
@@ -113,3 +111,6 @@ content: [
 
 --- Install React Alert Library
 > npm install react-hot-toast
+
+--- Install React Form Hook Library
+> npm install react-hook-form@7
