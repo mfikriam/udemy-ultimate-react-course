@@ -110,3 +110,6 @@ content: [
 
 --- Install Date Calculation Library
 > npm install date-fns
+
+--- Install React Alert Library
+> npm install react-hot-toast
