@@ -99,3 +99,11 @@ content: [
 --- Install Styled Components
 > npm install styled-components
 
+
+--- Install Supabase
+> npm install @supabase/supabase-js
+
+
+--- Install React Query
+> npm install @tanstack/react-query@4
+> npm install @tanstack/react-query-devtools@4
