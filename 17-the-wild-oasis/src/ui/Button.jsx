@@ -48,18 +48,18 @@ const variations = {
   `,
 };
 
-const Button = styled.button`
+const StyledButton = styled.button`
   border: none;
   border-radius: var(--border-radius-sm);
   box-shadow: var(--shadow-sm);
 
-  ${(props) => sizes[props.size]}
-  ${(props) => variations[props.variation]}
+  ${({ $size }) => sizes[$size]}
+  ${({ $variation }) => variations[$variation]}
 `;
 
-Button.defaultProps = {
-  variation: 'primary',
-  size: 'medium',
-};
+// 👇 Wrapper component (THIS is what fixes it)
+function Button({ variation = 'primary', size = 'medium', ...props }) {
+  return <StyledButton $variation={variation} $size={size} {...props} />;
+}
 
 export default Button;
