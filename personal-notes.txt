@@ -114,3 +114,6 @@ content: [
 
 --- Install React Form Hook Library
 > npm install react-hook-form@7
+
+--- Install React Charts
+> npm install recharts@2
