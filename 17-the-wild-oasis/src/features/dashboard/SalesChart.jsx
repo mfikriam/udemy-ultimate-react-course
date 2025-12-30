@@ -3,7 +3,7 @@ import DashboardBox from './DashboardBox';
 import Heading from '../../ui/Heading';
 import { Area, AreaChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import { useDarkMode } from '../../contexts/DarkModeContext';
-import { eachDayOfInterval, format, isDate, isSameDay, subDays } from 'date-fns';
+import { eachDayOfInterval, format, isSameDay, subDays } from 'date-fns';
 
 const StyledSalesChart = styled(DashboardBox)`
   grid-column: 1 / -1;
@@ -15,6 +15,7 @@ const StyledSalesChart = styled(DashboardBox)`
   }
 `;
 
+/*
 const fakeData = [
   { label: 'Jan 09', totalSales: 480, extrasSales: 20 },
   { label: 'Jan 10', totalSales: 580, extrasSales: 100 },
@@ -46,6 +47,7 @@ const fakeData = [
   { label: 'Feb 05', totalSales: 1400, extrasSales: 600 },
   { label: 'Feb 06', totalSales: 1450, extrasSales: 400 },
 ];
+*/
 
 function SalesChart({ bookings, numDays }) {
   const { isDarkMode } = useDarkMode();
@@ -83,7 +85,9 @@ function SalesChart({ bookings, numDays }) {
 
   return (
     <StyledSalesChart>
-      <Heading as="h2">Sales</Heading>
+      <Heading as="h2">
+        Sales from {format(allDates.at(0), 'MMM dd yyyy')} &mdash; {format(allDates.at(-1), 'MMM dd yyyy')}
+      </Heading>
 
       <ResponsiveContainer height={300} width="100%">
         <AreaChart data={data}>
