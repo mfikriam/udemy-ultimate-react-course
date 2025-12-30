@@ -117,3 +117,6 @@ content: [
 
 --- Install React Charts
 > npm install recharts@2
+
+--- Install React Error Boundary
+> npm install react-error-boundary
