@@ -120,3 +120,8 @@ content: [
 
 --- Install React Error Boundary
 > npm install react-error-boundary
+
+--- Install Babel For Manual SSR Nodejs + React
+> npm i -D @babel/core @babel/preset-env @babel/preset-react @babel/r
+egister
+> npm install react react-dom
