@@ -125,3 +125,6 @@ content: [
 > npm i -D @babel/core @babel/preset-env @babel/preset-react @babel/r
 egister
 > npm install react react-dom
+
+--- Setup Next.js Project
+> npx create-next-app@14 the-wild-oasis-website
