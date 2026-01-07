@@ -128,3 +128,6 @@ egister
 
 --- Setup Next.js Project
 > npx create-next-app@14 the-wild-oasis-website
+
+--- Update Next.js Project To The Latest Version
+> npm install next@latest react@latest react-dom@latest eslint-config-next@latest
